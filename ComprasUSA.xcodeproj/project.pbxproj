@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0039F63928A3185800DD76A7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0039F63828A3185800DD76A7 /* SettingsViewController.swift */; };
+		0039F63B28A3186F00DD76A7 /* TaxesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0039F63A28A3186F00DD76A7 /* TaxesViewController.swift */; };
 		00D27169289D9EC200CC84FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D27168289D9EC200CC84FB /* AppDelegate.swift */; };
 		00D2716B289D9EC200CC84FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D2716A289D9EC200CC84FB /* SceneDelegate.swift */; };
-		00D2716D289D9EC200CC84FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D2716C289D9EC200CC84FB /* ViewController.swift */; };
+		00D2716D289D9EC200CC84FB /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D2716C289D9EC200CC84FB /* ShoppingViewController.swift */; };
 		00D27170289D9EC200CC84FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D2716E289D9EC200CC84FB /* Main.storyboard */; };
 		00D27172289D9EC300CC84FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D27171289D9EC300CC84FB /* Assets.xcassets */; };
 		00D27175289D9EC300CC84FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D27173289D9EC300CC84FB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0039F63828A3185800DD76A7 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0039F63A28A3186F00DD76A7 /* TaxesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxesViewController.swift; sourceTree = "<group>"; };
 		00D27165289D9EC200CC84FB /* ComprasUSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComprasUSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D27168289D9EC200CC84FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00D2716A289D9EC200CC84FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		00D2716C289D9EC200CC84FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00D2716C289D9EC200CC84FB /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
 		00D2716F289D9EC200CC84FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00D27171289D9EC300CC84FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00D27174289D9EC300CC84FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 			children = (
 				00D27168289D9EC200CC84FB /* AppDelegate.swift */,
 				00D2716A289D9EC200CC84FB /* SceneDelegate.swift */,
-				00D2716C289D9EC200CC84FB /* ViewController.swift */,
+				00D2716C289D9EC200CC84FB /* ShoppingViewController.swift */,
+				0039F63828A3185800DD76A7 /* SettingsViewController.swift */,
+				0039F63A28A3186F00DD76A7 /* TaxesViewController.swift */,
 				00D2716E289D9EC200CC84FB /* Main.storyboard */,
 				00D27171289D9EC300CC84FB /* Assets.xcassets */,
 				00D27173289D9EC300CC84FB /* LaunchScreen.storyboard */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00D2716D289D9EC200CC84FB /* ViewController.swift in Sources */,
+				00D2716D289D9EC200CC84FB /* ShoppingViewController.swift in Sources */,
 				00D27169289D9EC200CC84FB /* AppDelegate.swift in Sources */,
+				0039F63B28A3186F00DD76A7 /* TaxesViewController.swift in Sources */,
 				00D2716B289D9EC200CC84FB /* SceneDelegate.swift in Sources */,
+				0039F63928A3185800DD76A7 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
