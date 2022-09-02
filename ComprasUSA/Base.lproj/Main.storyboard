@@ -96,7 +96,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-735" y="587"/>
+            <point key="canvasLocation" x="-1196" y="471"/>
         </scene>
         <!--Configurações-->
         <scene sceneID="YP6-PS-B2Y">
@@ -304,6 +304,15 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Impostos" image="taxes" id="TAA-Hc-Tcf"/>
+                    <connections>
+                        <outlet property="SwitchCreditCard" destination="NNj-TD-Lst" id="ocy-Sg-ZVV"/>
+                        <outlet property="labelDolar" destination="gk0-Mf-A7R" id="IyZ-ji-Xr4"/>
+                        <outlet property="labelIOF" destination="MXS-lW-hWY" id="rDd-09-H4K"/>
+                        <outlet property="labelIOFDescription" destination="GUh-w3-aVf" id="Grp-XU-dLq"/>
+                        <outlet property="labelReal" destination="ETd-Nh-9xU" id="YZX-7y-rwo"/>
+                        <outlet property="labelStateTaxDescrption" destination="4LE-8X-lE9" id="46A-zc-IXI"/>
+                        <outlet property="labelStateTaxes" destination="Bru-J2-LyL" id="lpX-an-Mch"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wHR-KP-AbU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
