@@ -9,7 +9,19 @@ class ShoppingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        setAmmount()
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        TextFildDolar.resignFirstResponder()
+        setAmmount()
+    }
+    func setAmmount() {
+        tc.dolar = Double(TextFildDolar.text!)!
     }
 
 }
