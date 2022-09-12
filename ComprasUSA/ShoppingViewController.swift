@@ -21,7 +21,7 @@ class ShoppingViewController: UIViewController {
         setAmmount()
     }
     func setAmmount() {
-        tc.dolar = Double(TextFildDolar.text!)!
+        tc.dolar = tc.connvertToDouble(TextFildDolar.text!)
     }
 
 }
