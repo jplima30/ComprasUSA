@@ -38,7 +38,7 @@
                                 <rect key="frame" x="132" y="125.5" width="242" height="48"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="32"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="brasil" translatesAutoresizingMaskIntoConstraints="NO" id="Y24-pi-pcX">
                                 <rect key="frame" x="0.0" y="304.5" width="414" height="299"/>
@@ -96,7 +96,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-735" y="587"/>
+            <point key="canvasLocation" x="-1196" y="471"/>
         </scene>
         <!--Configurações-->
         <scene sceneID="YP6-PS-B2Y">
@@ -127,7 +127,7 @@
                                                 <color key="backgroundColor" red="1" green="0.89411764705882346" blue="0.89411764705882346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="textColor" red="0.51156708688446972" green="0.0" blue="0.0047891660111424933" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="32"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                             </textField>
                                         </subviews>
                                     </stackView>
@@ -145,7 +145,7 @@
                                                 <color key="backgroundColor" red="0.77647058823529413" green="0.94901960784313721" blue="0.59607843137254901" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="textColor" red="0.0" green="0.50980392156862742" blue="0.27058823529411763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="32"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                             </textField>
                                         </subviews>
                                     </stackView>
@@ -163,7 +163,7 @@
                                                 <color key="backgroundColor" red="0.88235294117647056" green="0.96862745098039216" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="textColor" red="0.0" green="0.023529411764705882" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="32"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                             </textField>
                                         </subviews>
                                     </stackView>
@@ -304,6 +304,15 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Impostos" image="taxes" id="TAA-Hc-Tcf"/>
+                    <connections>
+                        <outlet property="SwitchCreditCard" destination="NNj-TD-Lst" id="ocy-Sg-ZVV"/>
+                        <outlet property="labelDolar" destination="gk0-Mf-A7R" id="IyZ-ji-Xr4"/>
+                        <outlet property="labelIOF" destination="MXS-lW-hWY" id="rDd-09-H4K"/>
+                        <outlet property="labelIOFDescription" destination="GUh-w3-aVf" id="Grp-XU-dLq"/>
+                        <outlet property="labelReal" destination="ETd-Nh-9xU" id="YZX-7y-rwo"/>
+                        <outlet property="labelStateTaxDescrption" destination="4LE-8X-lE9" id="46A-zc-IXI"/>
+                        <outlet property="labelStateTaxes" destination="Bru-J2-LyL" id="lpX-an-Mch"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wHR-KP-AbU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
