@@ -8,6 +8,8 @@ class TaxesCalculator {
     var stateTax: Double = 7.0
     var shoppingValue: Double = 0
     
+    let formatter = NumberFormatter()
+    
     var shoppingValueInReal: Double {
         return shoppingValue * dolar
     }
@@ -28,8 +30,13 @@ class TaxesCalculator {
         return finalValue
     }
     
+    func connvertToDouble(_ string: String) -> Double {
+        formatter.numberStyle = .none
+        return formatter.number(from: string)!.doubleValue
+    }
+    
     private init() {
-        
+        formatter.usesGroupingSeparator = true
     }
     
 }

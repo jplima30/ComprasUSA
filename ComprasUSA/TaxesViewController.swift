@@ -10,7 +10,6 @@ class TaxesViewController: UIViewController {
     @IBOutlet weak var SwitchCreditCard: UISwitch!
     @IBOutlet weak var labelReal: UILabel!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
